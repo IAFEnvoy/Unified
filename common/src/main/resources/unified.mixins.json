@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.iafenvoy.unified.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "CommandManagerMixin",
+    "SimpleRegistryMixin",
+    "SynchronizeTagsS2CPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

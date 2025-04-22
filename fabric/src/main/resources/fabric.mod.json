@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "unified",
+  "version": "${version}",
+  "name": "Unified",
+  "description": "Unify items!",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "contact": {
+    "sources": "https://github.com/IAFEnvoy/Unified"
+  },
+  "license": "All Right Reserved",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.iafenvoy.unified.fabric.UnifiedFabric"
+    ],
+    "client": [
+      "com.iafenvoy.unified.fabric.client.UnifiedFabricClient"
+    ]
+  },
+  "mixins": [
+    "unified.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}

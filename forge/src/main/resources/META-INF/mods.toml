@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/IAFEnvoy/Unified/issues"
+license = "All Right Reserved"
+
+[[mods]]
+modId = "unified"
+version = "${version}"
+displayName = "Unified"
+authors = "IAFEnvoy"
+description = '''
+Unify items!
+'''
+logoFile = "logo.png"
+
+[[dependencies.unified]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.unified]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
