@@ -177,10 +177,7 @@ public class UnifyScreenHandler extends ScreenHandler {
             } else if (slot == 0) {
                 if (!this.insertItem(itemStack2, 2, 38, false))
                     return ItemStack.EMPTY;
-            } else if (slot >= 2 && slot < 29) {
-                if (!this.insertItem(itemStack2, 29, 38, false))
-                    return ItemStack.EMPTY;
-            } else if (slot >= 29 && slot < 38 && !this.insertItem(itemStack2, 2, 29, false))
+            } else if (!this.insertItem(itemStack2, 0, 1, false))
                 return ItemStack.EMPTY;
             if (itemStack2.isEmpty()) slot2.setStack(ItemStack.EMPTY);
             slot2.markDirty();

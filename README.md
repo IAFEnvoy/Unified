@@ -2,7 +2,7 @@
 
 Annoying for a lot of same items from different mods cannot use mutually? This mod can help you.
 
-This mod add a command `/unify`, which you can open a unify screen.
+This mod add a command `/unify`, which you can open a unify screen. You can exchange items with same tag.
 
 ## How to use
 
